@@ -1,0 +1,249 @@
+.container{
+    margin: 30px;
+    background: transparent;
+    /* height: 30px; */
+
+}
+.nav-menu .overlay{
+    /* width: 70%; */
+    margin-left: 20px;
+}
+.nav-menu ul{
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+    list-style: none;
+    display: flex;
+
+}
+.overlay ul{
+    margin: 35px 0 0 0;
+    padding: 0 0 0 0;
+    list-style: none;
+    /* display: flex; */
+
+}
+.nav-menu li{
+    display: flex;
+    padding: 15px;
+    cursor: pointer;
+    font-family: 'cutive mono', monospace ;
+    color: rgb(32, 32, 32);
+    font-size: 15px;
+    font-weight: 100;
+    text-decoration: none;
+    outline: none;
+}
+.overlay li{
+    display: flex;
+    padding: 12px;
+    cursor: pointer;
+    font-family: 'cutive mono', monospace ;
+    color: rgb(32, 32, 32);
+    font-size: 15px;
+    font-weight: 100;
+    text-decoration: none;
+    outline: none;
+
+}
+.overlay ul{
+    display: block !important;
+}
+.overlay-menu{
+    display: none;
+    width: 50%;
+    background: #fff;
+    height: 100vh;
+    right: 0;
+    top: 0;
+    border: #fff;
+    position: fixed;
+    padding: 20px 0vw 20px 1vw;
+}
+.closebtn{
+    margin-top: 10px;
+    float: right;
+    padding-right: 10px;
+}
+.gif{
+    width: 120px;
+    position: fixed;
+}
+.camera{
+    position: fixed; 
+    width: 120px;
+    transform: rotate(-35deg);
+    margin-left: -20px;
+}
+.wed{
+    display: block;
+    float: right;
+    margin-right: 150px;
+    margin-top: -65px;
+}
+.camera2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav-menu li.active {
+    color: #5cb5b8;
+}
+.overlay li.active{
+    color: #5cb5b8;
+}
+.nav-menu a .overlay{
+    text-decoration: none;
+    color: rgb(32, 32, 32);
+}
+.overlay a {
+    text-decoration: none;
+    color: rgb(32, 32, 32);
+}
+.nav-bar{
+    display: flex;
+    flex-direction: row;
+}
+.nav-logo{
+    display: block;
+    /* width: 20%; */
+    font-size: 34px;
+    font-weight: 300;
+    font-family: 'Merriweather', serif;
+    color: #000;
+    line-height: 40px;
+    text-transform: none;
+    letter-spacing: 1.5px;
+    text-decoration: none;
+}
+.nav-logo a{
+    text-decoration: none;
+    color: #000;
+}
+.nav-icons{
+    margin-top: 10px;
+    margin-left: 60px;
+}
+.nav-icons img{
+padding: 5px;
+}
+.overlay-icons{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.overlay-icons img{
+padding: 15px;
+}
+.nav-hmbgr{
+    display: none;
+    margin-left: auto;
+    margin-top: -10px;
+}
+.body-container{
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.body-container img{
+    width: 500px;
+    height: 625px;
+    margin-bottom: 10%;
+}
+style{
+    display: none;
+}
+.row{
+    display: flex;
+   flex-wrap: wrap;
+   justify-content: space-around;
+   align-items: center;
+}
+
+/* about page */
+
+.about-img{
+    display: flex;
+}
+.about-img img{
+    width: 4in;
+    height: 3in;
+    margin: auto;
+}
+.about-menu{
+    margin-left: auto;
+}
+.home-icon{
+    padding-right: 5px;
+}
+.content{
+    width: 66%;
+    padding-top: 36px;
+    padding-bottom: 36px;
+    margin: auto;
+}
+.content h1{
+    margin-bottom: 0.4em;
+    color: #000;
+    font-family: 'cutive mono', monospace ;
+    line-height: 1.4 !important;
+    font-size: 25px;
+    font-weight: 700;
+}
+.about-content p{
+    margin-bottom: 1em;
+    color: #000;
+    font-family: 'cutive mono', monospace;
+    line-height: 1.9 !important;
+    font-size: 15px;
+    font-weight: 300;
+}
+@media screen and (max-width:767px) {
+    .container{
+        margin: 0px;
+        padding: 20px 2vw 20px 3vw;
+    }
+    .nav-menu ul{
+        display: none;
+    }
+    .nav-icons{
+        display: none;
+    }
+    .nav-hmbgr{
+        display: block;
+    }
+    .body-container{
+        margin-top: 20px;
+    }
+    .body-container img{
+        width: 90vw;
+        height: auto;
+        cursor: auto;
+    }
+    .camera{
+        margin-left: -30px;
+        margin-top: -15px;
+    }
+    .gif{
+        width: 85px;
+    }
+}
+@media screen and (min-width:767px) and (max-width:1024px){
+    .nav-menu ul{
+        display: none;
+    }
+    .nav-icons{
+        display: none;
+    }
+    .nav-hmbgr{
+        display: block;
+    }
+    .gif{
+        width: 100px;
+    }
+    .camera{
+        margin-left: 70px;
+        margin-top: -15px;
+    }
+}
