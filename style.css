@@ -65,14 +65,36 @@
     padding-right: 10px;
 }
 .gif{
-    width: 120px;
+    width: 80px;
     position: fixed;
 }
 .camera{
     position: fixed; 
-    width: 120px;
+    width: 80px;
     transform: rotate(-35deg);
-    margin-left: -20px;
+    margin-left: 30px;
+}
+.video1{
+    position: fixed;
+    right: 44vw;
+    width: 150px;
+    bottom: 40px;
+    /* transform: rotate(15deg); */
+}
+.video2{
+    position: fixed;
+    left: 10px;
+    bottom: 40px;
+    width: 150px;
+    /* transform: rotate(5deg); */
+}
+
+.video4{
+    position: fixed;
+    right: 10px;
+    bottom: 40px;
+    width: 150px;
+    /* transform: rotate(-10deg); */
 }
 .wed{
     display: block;
@@ -223,7 +245,7 @@ style{
     }
     .camera{
         margin-left: -30px;
-        margin-top: -15px;
+        margin-top: -18px;
     }
     .gif{
         width: 85px;
